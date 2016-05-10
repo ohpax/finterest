@@ -1,8 +1,16 @@
-$body-bg: #95a5a6;
+@import url(https://fonts.googleapis.com/css?family=Asap:400,700);
+
+$body-bg: #eee;
+$font-family-sans-serif: 'Asap', sans-serif;
 $navbar-default-bg: #2c3e50;
-$navbar-default-brand-color: #2ecc71;
+$navbar-default-brand-color: #FFCC00;
 $navbar-default-link-color: #ecf0f1;
-$navbar-default-link-hover-color: #16a085 ;
+$navbar-default-link-hover-color: #FFCC00 ;
 $btn-default-bg: #34495e;
 $btn-default-color: #ecf0f1;
+$jumbotron-bg: #fff;
 @import "bootstrap";
+
+.navbar-brand {
+	font-weight: bold;
+}
